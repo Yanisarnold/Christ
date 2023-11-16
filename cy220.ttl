@@ -29,6 +29,5 @@ spmr:Venom spmr:hasPower 'Symbiote Enhancements';
            spmr:isRealName 'Eddie Brock';
            spmr:appearedIn 'Spider-Man 3';
            spmr:hasEnemy 'spider-Man'.   
-_:superHero      rdf:type spmr:Character ;
-                 spmr:isRealName 'Spider-Man'.
+_:superHero  spmr:isRealName 'Spider-Man'.
 spmr:HarryOsborn spmr:hasFriend _:superHero.

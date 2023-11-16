@@ -20,6 +20,7 @@
 # @prefix spm, spmr
 @prefix spm: <http://www.example.com/Spider-Man/> .
 @prefix spmr:  <http://www.example.com/Spider-Man-relations/> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 # c. Create a vocabulary (classes and properties) that you will use for modelling. Write down their definitions (stating e.g., that Student is a class, while isTaughtBy is a property) as Turtle triples.
 # 1 .

@@ -1,6 +1,7 @@
 @prefix spm: <http://www.example.com/Spider-Man/> .
 @prefix spmr:  <http://www.example.com/Spider-Man-relations/> . 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
 spm:spiderMan spmr:itsGirlfriend    'Mary Jane';
               spmr:isRealName       'PeterParker';
               spmr:hasWorkFor       'DailyBugle';
@@ -30,5 +31,4 @@ spmr:Venom spmr:hasPower 'Symbiote Enhancements';
            spmr:hasEnemy 'spider-Man'.   
 _:superHero      rdf:type spmr:Character ;
                  spmr:isRealName 'Spider-Man'.
-spmr:HarryOsborn rdf:type spmr:Character ;
-                  spmr:hasFriend _:superHero.
+spmr:HarryOsborn spmr:hasFriend _:superHero.

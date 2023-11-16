@@ -1,7 +1,13 @@
 @prefix spm: <http://www.example.com/Spider-Man/> .
 @prefix spmr:  <http://www.example.com/Spider-Man-relations/> . 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+spm:spiderMan rdf:subClassOf spm:superHero.
+# 2. domain
+spmr:knowFor rdf:domain spm:superHero.
+# 3. range
+spmr:isEnemyOf rdf:range xsd:string.
 spm:spiderMan spmr:itsGirlfriend    'Mary Jane';
               spmr:isRealName       'PeterParker';
               spmr:hasWorkFor       'DailyBugle';
